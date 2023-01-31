@@ -4,6 +4,7 @@ import Textform from './components/Textform';
 import Alert from './components/Alert';
 import './App.css';
 import {useState} from 'react';
+import Diction from './components/Diction';
 
 const App=()=> {
 const [mode, setMode]=useState('light')
@@ -33,6 +34,7 @@ const [alert,setAlert]= useState("null")
     <Navbar mode={mode}  toggleMode={toggleMode} />
     <Alert alert={alert}/>
     <Textform mode={mode}  toggleMode={toggleMode} showAlert={showAlert}/>
+    <Diction mode={mode}  toggleMode={toggleMode}/>
     </div>
   )
 }

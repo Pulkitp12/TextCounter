@@ -125,12 +125,12 @@ function Textform(props) {
         <button className="btn btn-primary btn-sm" onClick={Textfile}>SaveTextFile</button>
         
 
-                          <div class="btn-group">
+                          <div className="btn-group">
                           <button className="btn btn-danger btn-sm" onClick={Toggleview} id="preview">Preview</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span class="visually-hidden">Toggle Dropdown</span>
+                    <button type="button" className="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span className="visually-hidden">Toggle Dropdown</span>
                     </button>
-                    <ul class="dropdown-menu text-center">
+                    <ul className="dropdown-menu text-center">
                       <li><button className="btn btn-outline-info btn-sm" onClick={change}>{btn}</button></li>  
                     </ul>
                   </div>
