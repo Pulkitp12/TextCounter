@@ -11,11 +11,11 @@ const [mode, setMode]=useState('light')
 const toggleMode = () => {
   if (mode==='light')
   {setMode('dark');
-   document.body.style.backgroundColor="darkslategray";
+   document.body.style.backgroundImage="linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%)";
   showAlert("success","Dark mode enabled")}
   else{
     setMode('light');
-    document.body.style.backgroundColor="#61dafb";
+    document.body.style.backgroundImage="radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)";
     showAlert("success","Dark mode disabled")
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar=(props)=> {
   return (
-    <nav className={`navbar navbar-expand-lg`} style={props.mode==='light'?{borderBottom:'1px solid black',backgroundColor:"aliceblue"}:{borderBottom:'1px solid white',backgroundColor:"gainsboro"}}>
+    <nav className={`navbar navbar-expand-lg`} style={props.mode==='light'?{borderBottom:'1px solid black',backgroundColor:"aliceblue"}:{borderBottom:'1px solid white',color:"white",backgroundColor:"black"}}>
     <div className="container-fluid">
     <h1 className='mx-4'>TextUtil</h1>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
